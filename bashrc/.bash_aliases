@@ -1,5 +1,6 @@
 alias G='gvim'
 alias a="ack-grep"
+alias gits="git s"
 
 alias cd..='cd ..'
 alias cd...='cd ..; cd ..'
@@ -19,6 +20,8 @@ alias Tsongscrap="vim ~/n900_merge/song/scrapbook"
 alias Tbyro='vim ~/Dropbox/Documenty/byro'
 alias Ttodo="vim ~/Dropbox/n900_merge/todo"
 alias Tanim="vim ~/Dropbox/n900_merge/anim_my"
+
+
 
 #console startups
 alias start_scrapbook='cd ~/rubyrubyruby/heroku/scrapbook/; shotgun scrapbook.rb -p 3008 '
