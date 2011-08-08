@@ -1,0 +1,128 @@
+snippet aa
+	</a>
+snippet clas
+	class="${1}"${2}
+snippet "
+	"${1}"
+snippet '
+	'${1}'
+snippet mail
+	mail_to ${1}
+snippet class
+	:class => "#${1}"${2}
+snippet if
+	<% if ${1} %>${2}
+snippet end
+	<% end %>
+snippet else
+	<% else %>
+snippet elsif
+	<% eslif %>
+snippet img
+	image_tag("${1}.png"${3})
+snippet partial
+	render :partial =>"${1}"
+snippet clear
+	<div style="clear:both"></div>
+snippet formm
+	</form>
+snippet form_for
+	<% form_for @${1} do |f| %>
+	  <div class="field">
+	    <%= f.label :${2} %><br />
+	    <%= f.text_field :${3} %>
+	  </div>
+
+	  <div class="actions">
+	    <%= f.submit t("${4}")  %>
+	  </div>
+	<% end %>
+snippet tr
+	<tr>${1}</tr>
+snippet th
+	<th>${1}</th>
+snippet td
+	<td>${1}</td>
+snippet table
+	<table width="100%">
+	  <tbody>
+	    <tr>
+		    <td>${1}</td>
+		  </tr>		
+	  </tbody>
+	</table>		
+snippet p
+	<p>${1}</p>
+snippet h1
+	<h1>${1}</h1>
+snippet h2
+	<h2>${1}</h2>
+snippet h3
+	<h3>${1}</h3>
+snippet ul
+	<ul>
+		<li>${1}</li>
+		<li></li>
+	</ul>
+snippet lic
+	<li class="${1}">${2}</li>
+snippet li
+	<li>${1}</li>
+snippet br
+	<br />
+snippet i
+	<i>${1}</i>
+snippet b
+	<b>${1}</b>
+snippet cl
+	class="${1}"i 
+snippet strong	
+	<strong>${1}</strong>
+snippet strongg
+	</strong>
+snippet span
+	<span>${1}</span>
+snippet spann
+	</span>
+snippet spani
+	<span id="${1}">${2}</span>
+snippet spanc
+	<span class="${1}">${2}</span>
+snippet div
+	<div${1}>${2}
+snippet divi
+	<div id="${1}">${2}
+snippet divc
+	<div class="${1}">${2}
+snippet divv
+	</div>${1} 
+snippet divii
+	<div id="${1}">
+	  ${2}
+	</div>
+snippet divcc
+	<div class="${1}">
+	  ${2}
+	</div>
+snippet lint
+	link_to(I18n.t('${1}'), ${2}) 
+snippet linc
+	link_to(${1}, ${2}, :class => "${3}") 
+snippet lini
+	link_to(${1}, ${2}, :id => "${3}") 
+snippet lin
+	link_to(${1}, ${2}) 
+snippet t
+	<%= t("${1}") %>
+snippet tt
+	t("${1}") 
+snippet .
+	<%= ${1} %>
+snippet ,
+	<% ${1} %>
+snippet end
+	<% end %>
+snippet lorem
+	Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+snippet lorems
+	Lorem Ipsum is simply dummy text

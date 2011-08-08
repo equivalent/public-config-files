@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/home/tomi/RUBY/cleanup/valeri/public/stylesheets'
+let g:netrw_dirhist_2='/home/tomi/RUBY/cleanup/equivalent/public/w/articles'
+let g:netrw_dirhist_3='/home/tomi/RUBY/cleanup/equivalent/app/views'
+let g:netrw_dirhist_4='/home/tomi/RUBY/cleanup/equivalent/app/views/layouts'
+let g:netrw_dirhist_5='/home/tomi/RUBY/cleanup/equivalent/app/views'

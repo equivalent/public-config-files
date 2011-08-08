@@ -1,0 +1,2 @@
+tComment.vba: call delete('/home/tomi/.vim/doc/tComment.txt')|call delete('/home/tomi/.vim/plugin/tComment.vim')|call delete('/home/tomi/.vim/autoload/tcomment.vim')
+utl_3_0a.vba: call delete('/home/tomi/.vim/doc/utl_usr.txt')|call delete('/home/tomi/.vim/autoload/utl_lib.vim')|call delete('/home/tomi/.vim/plugin/utl.vim')|call delete('/home/tomi/.vim/plugin/utl_rc.vim')|call delete('/home/tomi/.vim/plugin/utl_scm.vim')|call delete('/home/tomi/.vim/plugin/utl_uri.vim')
