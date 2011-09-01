@@ -1,4 +1,8 @@
+
+
+
 alias G='gvim'
+alias v='vim'
 alias a="ack-grep"
 alias gits="git s"
 
@@ -16,7 +20,8 @@ alias Tn900=" cd ~/Dropbox/n900_merge/"
 alias Tlinksinteresting='vim ~/rubyrubyruby/heroku/scrapbook/public/w/other/interesting_links'
 alias Tlinks='vim ~/rubyrubyruby/heroku/scrapbook/public/w/links'
 alias Treaded_articles='vim ~/rubyrubyruby/heroku/scrapbook/public/w/other/readed_articles'
-alias Tsongscrap="vim ~/n900_merge/song/scrapbook"
+alias Tother_readed_things='vim ~/rubyrubyruby/heroku/profile/public/w/readed_articles_other'
+alias Tsongscrap="vim ~/Dropbox/n900_merge/song/scrapbook"
 alias Tbyro='vim ~/Dropbox/Documenty/byro'
 alias Ttodo="vim ~/Dropbox/n900_merge/todo"
 alias Tanim="vim ~/Dropbox/n900_merge/anim_my"
@@ -33,4 +38,6 @@ alias ctagrails='rm -R ./tags; ctags -R --exclude=log * --exclude=.git *'
 alias tailrender="tail -f log/development.log | egrep 'Rendering|Rendered|Completed|Processing'"
 alias tailprocesing="tail -f log/development.log | egrep '  Processing'"
 
-
+#invert colors in ubuntu 11 (to do this    apt-get install xcalib    )
+alias Tmonochrome="/usr/bin/xcalib -invert -alter;"
+alias mn=Tmonochrome

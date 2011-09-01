@@ -19,7 +19,7 @@ let g:rails_default_file='config/database.yml'
  
 syntax enable
 set ruler
-set number
+"set number"
 set laststatus=2
 set expandtab
 set shiftwidth=2
