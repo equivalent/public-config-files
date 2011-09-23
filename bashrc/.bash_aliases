@@ -1,5 +1,5 @@
 
-
+alias GT='gnome-terminal'
 
 alias G='gvim'
 alias v='vim'
@@ -17,12 +17,13 @@ alias Tn900=" cd ~/Dropbox/n900_merge/"
 
 
 #quick edit files vim
-alias Tlinksinteresting='vim ~/rubyrubyruby/heroku/scrapbook/public/w/other/interesting_links'
 alias Tlinks='vim ~/rubyrubyruby/heroku/scrapbook/public/w/links'
 alias Treaded_articles='vim ~/rubyrubyruby/heroku/scrapbook/public/w/other/readed_articles'
-alias Tother_readed_things='vim ~/rubyrubyruby/heroku/profile/public/w/readed_articles_other'
+alias Tblender_readed_articles='vim ~/rubyrubyruby/heroku/scrapbook/public/w/other/blender_and_3d_readed_articles'
+alias Tblender_links='vim ~/rubyrubyruby/heroku/scrapbook/public/w/other/blender_and_3d_readed_links'
+alias Tother_readed_things='vim ~/rubyrubyruby/heroku/scrapbook/public/w/other/readed_articles_other'
 alias Tsongscrap="vim ~/Dropbox/n900_merge/song/scrapbook"
-alias Tbyro='vim ~/Dropbox/Documenty/byro'
+alias Tbyro='vim ~/Dropbox/n900_merge/byro'
 alias Ttodo="vim ~/Dropbox/n900_merge/todo"
 alias Tanim="vim ~/Dropbox/n900_merge/anim_my"
 
