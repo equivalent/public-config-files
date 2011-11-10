@@ -1,0 +1,4 @@
+alias G="mvim"
+alias N="cd ~/work/lovethis/serverstuff/server_mgmt/deploy/interface"
+alias a="ack"
+

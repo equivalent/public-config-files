@@ -67,8 +67,9 @@ set ts=2
 
 set noswapfile
 
-set clipboard=unnamed
 
+"link in yank and middle button
+" set clipboard=unnamed
 
 
 
@@ -78,4 +79,6 @@ nnoremap qw :silent! normal mpea'<Esc>bi'<Esc>`pl
 nnoremap qv :silent! normal mpea"<Esc>bi"<Esc>`pl
 " remove quotes from a word
 nnoremap ciq :silent! normal mpeld bhd `ph<CR>
+
+"missiommission
 

@@ -1,3 +1,24 @@
+snippet section
+	<section id="${1}">
+		${2}
+	</section>
+snippet content_for
+	<% content_for :head do %>
+	   <title>or something</title>
+	<% end %>
+	<%#= yield :head %>
+
+snippet html
+	<!DOCTYPE html>
+	<html>
+	  <head>
+	    <title>project</title>
+	  </head>
+
+	  <body>
+	     ${1}
+		</body>
+	</html>
 snippet aa
 	</a>
 snippet clas
@@ -52,7 +73,9 @@ snippet table
 	  </tbody>
 	</table>		
 snippet p
-	<p>${1}</p>
+	<p>
+		${1}
+	</p>
 snippet h1
 	<h1>${1}</h1>
 snippet h2

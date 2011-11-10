@@ -100,6 +100,12 @@ if [ -f ~/.bash_aliases_private ]; then
 fi
 
 
+# mac aliases (hidden )  
+if [ -f ~/.bash_aliases_mac ]; then
+    . ~/.bash_aliases_mac
+fi
+
+
 
 # enable programmable completion features (you don't need to enable
 # this, if it's already enabled in /etc/bash.bashrc and /etc/profile
@@ -139,5 +145,7 @@ PS2='> '
 PS4='+ '
 }
 proml
+
+
 
 
